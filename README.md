@@ -30,6 +30,38 @@ The project is implemented using **Java OOP concepts**, **Exception Handling**, 
 
 ---
 
+## 📂 PROJECT STRUCTURE
+```
+SchoolTimetableManagement/
+│
+├── module1/      → Core OOP classes  
+│   ├── Person.java  
+│   ├── Teacher.java  
+│   ├── Student.java  
+│   └── Module1Test.java  
+│
+├── module2/      → Exception handling & data organization  
+│   ├── Schedulable.java  
+│   ├── TimetableManager.java  
+│   ├── TimetableException.java  
+│   └── Module2Test.java  
+│
+├── module3/      → Generics and Multithreading  
+│   ├── Timetable.java  
+│   ├── TimetableTask.java  
+│   └── Module3Test.java  
+│
+├── module4/      → Networking and JDBC  
+│   ├── TimetableServer.java  
+│   ├── TimetableClient.java  
+│   ├── DatabaseHandler.java  
+│   └── Module4Test.java  
+│
+├── module5/      → GUI (Swing/JavaFX)  
+│   └── TimetableUI.java  
+│
+└── MainApp.java   → Entry point that ties everything together
+```
 
 ---
 
@@ -71,4 +103,37 @@ The project is implemented using **Java OOP concepts**, **Exception Handling**, 
        day VARCHAR(20),
        time_slot VARCHAR(20)
    );
+   ```
+3. Open the project in **Eclipse IDE**  
+4. Run `MainApp.java`  
+5. Observe:
+   - Console output showing OOP, Exception Handling, and Multithreading examples  
+   - GUI window displaying timetable information  
 
+---
+
+## 📸 SAMPLE OUTPUT
+
+**Console:**
+```
+=== School Timetable Management System ===
+Teacher: Ravi (ID: T001)
+Subject: Maths
+Scheduled Slot: Monday 9AM
+Auto-Scheduler Running...
+Database Connected and Entry Inserted!
+```
+
+**GUI:**  
+Displays an interactive timetable window with subject and teacher details.
+
+---
+
+## 👩‍💻 DEVELOPED BY
+**Abinaya G**  
+B.Tech – Artificial Intelligence and Data Science  
+1st Year  
+
+---
+
+✅ *This project demonstrates integration of all key Java concepts into a single functional system.*
